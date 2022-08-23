@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #cfe2f3;
+}
+header {
+	background: #cfe2f3;
+}
+main {
+	font-family: 'Nanum Gothic', sans-serif;
+	display: flex;
+ 	justify-content: center;
+ 	background: #cfe2f3;
+}
+
+.logo {
+	margin: 30px 30px 0 30px;
+}
+.titulo-encriptador {
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: #153b60;
+}
+
+section textarea{
+	font-family: 'Nanum Gothic', sans-serif;
+	padding: 15px;
+	border-radius: 24px;
+	resize: none;
+	border: none;
+}
+
+textarea:focus {
+	outline: none;
+
+}
+
+.first-section {
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.first-section p {
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.first-section textarea {
+	background: #cfe2f3;
+	font-size: 32px;
+	width: 700px;
+	height: 400px;
+	color: #153b60;
+
+}
+
+.second-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.second-section textarea {
+	width: 250px;
+	height: 400px;
+	box-shadow:  5px 5px 15px;
+	font-size: 20px;
+}
+
+
+.botones {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background: #cfe2f3;
+}
+
+.encriptar {
+	width: 350px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 24px;
+	background: #153b60;
+	color: white;
+	border: none;
+}
+
+.encriptar:hover {
+	cursor: pointer;
+	background: none;
+	border: solid;
+	border-color: #153b60;
+	color: #153b60;
+
+}
+.encriptar:active {
+	border: solid;
+	border-color:white;
+	color: white;
+
+}
+
+.desencriptar {
+	width: 350px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 24px;
+	background: lightgray;
+	color: 	#153b60;
+	border: none;
+}
+
+.desencriptar:hover {
+	cursor: pointer;
+	background: none;
+	border: solid;
+	border-color: #153b60;
+	color: #153b60;
+
+}
+
+.desencriptar:active {
+	border: solid;
+	border-color:white;
+	color: white;
+
+}
+
+.botones-derecho {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	border: none;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.copiar {
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	border-radius: 24px;
+	background: lightgray;
+	color: 	#153b60;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.copiar:hover {
+	cursor: pointer;
+	background: none;
+	border: solid;
+	border-color: #153b60;
+	color: #153b60;
+	transform: scale(1.2);
+
+}
+
+.copiar:active {
+	border: solid;
+	border-color:white;
+	color: white;
+
+}
+
+.borrar {
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+	border-radius: 24px;
+	background: lightgray;
+	color: 	#153b60;
+	border: none;
+}
+
+.borrar:hover {
+	cursor: pointer;
+	background: none;
+	border: solid;
+	border-color: #153b60;
+	color: #153b60;
+
+}
+
+.borrar:active {
+	border: solid;
+	border-color:white;
+	color: white;
+
+}
+
+
+.mensaje {
+	background-image: url(img/Muñeco.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	background-size: 180px;
+}
+
+footer {
+	font-family: 'Nanum Gothic', sans-serif;
+	margin: 50px;
+	font-size: 15px;
+	color: #153b60;
+	text-align: center;
+	font-weight: bold;
+}
