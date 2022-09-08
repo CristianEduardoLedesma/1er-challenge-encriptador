@@ -215,7 +215,7 @@ footer {
 	text-align: center;
 	font-weight: bold;
 }
-@media(max-width){
+@media(max-width:375){
   main {
     flex-direction: column;
   }
