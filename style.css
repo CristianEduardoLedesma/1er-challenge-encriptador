@@ -4,8 +4,7 @@
 	padding: 0;
 }
 body {
-	background: #cfe2f3;
-        max-width:800px;
+	background: #cfe
 }
 header {
 	background: #cfe2f3;
@@ -215,4 +214,9 @@ footer {
 	color: #153b60;
 	text-align: center;
 	font-weight: bold;
+}
+@media(max-width){
+  main {
+    flex-direction: column;
+  }
 }
