@@ -14,9 +14,6 @@ main {
 	display: flex;
  	justify-content: center;
  	background: #cfe2f3;
-        min-width: 100vw;
-        min-height: 100vh;
-        margin: 0 auto;
 }
 
 .logo {
@@ -218,8 +215,4 @@ footer {
 	text-align: center;
 	font-weight: bold;
 }
-@media (max-width: 1080px){
-  main {
-    flex-direction: column;
-  }
-}
+
